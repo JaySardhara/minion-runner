@@ -25,7 +25,7 @@ public class PersonHandler implements Chain
         {
             a.getWorld().removeObject(collidedPerson);
             ((CarWorld) a.getWorld()).collided();
-            Greenfoot.playSound("Explosion.wav");
+            //Greenfoot.playSound("Explosion.wav");
         }
         else 
         {

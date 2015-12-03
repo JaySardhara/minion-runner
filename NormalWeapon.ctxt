@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=minion
+comment0.target=NormalWeapon(IWeaponBearer)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ NormalWeapon\r\n
+comment1.params=
+comment1.target=void\ smokerHit()
+comment2.params=
+comment2.target=void\ rocketHit()
+numComments=3

@@ -8,19 +8,19 @@ import java.awt.Font;
  * @author Jay Sardhara
  * @version 0.0.1
  */
-public class bananaScore extends Actor implements Component
+public class BananaScore extends Actor implements Component
 {
     public static int value = 0;
     public static int target = 0;
     public static String text;
     public static int stringLength;
     
-    public bananaScore()
+    public BananaScore()
     {
         this("");
     }
     
-    public bananaScore(String prefix)
+    public BananaScore(String prefix)
     {
         value = 0;
         target = 0;

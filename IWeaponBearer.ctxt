@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ rocketHit()
+comment1.params=
+comment1.target=void\ smokerHit()
+comment2.params=
+comment2.target=void\ setNormalWeapon()
+comment3.params=
+comment3.target=void\ setSmokerWeapon()
+comment4.params=
+comment4.target=void\ setRocketWeapon()
+numComments=5

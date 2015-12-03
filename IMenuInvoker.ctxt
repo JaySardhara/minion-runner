@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=void\ setCommand(ICommand)
+comment1.params=actor
+comment1.target=void\ invoke(greenfoot.Actor)
+numComments=2

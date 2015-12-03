@@ -25,7 +25,7 @@ public class BananaHandler implements Chain
         {
             a.getWorld().removeObject(collidedBanana);
             //((CarWorld) a.getWorld()).collided();
-            Greenfoot.playSound("Explosion.wav");
+            //Greenfoot.playSound("Explosion.wav");
         }
         else 
         {

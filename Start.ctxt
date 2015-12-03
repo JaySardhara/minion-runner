@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Start()
+comment1.params=actor
+comment1.target=void\ perform(greenfoot.Actor)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Information\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ click()
+comment4.params=
+comment4.target=void\ initialize()
+comment5.params=command
+comment5.target=void\ setCommand(ICommand)
+comment6.params=actor
+comment6.target=void\ invoke(greenfoot.Actor)
+numComments=7

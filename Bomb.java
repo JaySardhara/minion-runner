@@ -24,11 +24,16 @@ public class Bomb  extends Actor implements Component
     
     public void act() 
     {
-       if(Car.isRocket)
+       //if(Car.isRocket)
+       if(Car.getWeaponState() instanceof RocketWeapon){
             setImage(new GreenfootImage("rocket_only.png")); 
-       else if(Car.isSmoker)
+           
+        }
+       //else if(Car.isSmoker)
+       else if(Car.getWeaponState() instanceof SmokerWeapon){
             setImage(new GreenfootImage("fart_smog.png"));
-       
+            
+        }
         
        moveUp();
        check();
@@ -48,7 +53,14 @@ public class Bomb  extends Actor implements Component
        collidedBackground = getOneIntersectingObject(Background.class);
        if(collidedVehicle != null || collidedPerson != null || collidedBackground != null || getY() == 0)
        {
-          Greenfoot.playSound("Explosion.wav");
+          
+           //Set randimization for collision laugh of minion
+           if( Greenfoot.getRandomNumber(2) < 1)
+            Greenfoot.playSound("Minion Laugh Sound Effect_01.mp3");
+           else if( Greenfoot.getRandomNumber(2) < 1 )
+            Greenfoot.playSound("Minion Laugh Sound Effect_02.mp3");
+           else
+            Greenfoot.playSound("look_at_u.mp3");
           if(collidedVehicle != null)
           {
              ((CarWorld) getWorld()).addScore(50);

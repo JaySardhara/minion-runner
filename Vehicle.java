@@ -53,6 +53,9 @@ public class Vehicle  extends Actor implements Component
     }
     public void randomImage()
     {
+        //Play default purpule minion sound by default, when spawned
+        Greenfoot.playSound("baah.mp3");
+        
        if (Greenfoot.getRandomNumber(4)<1)
        {
           setImage(image1);
